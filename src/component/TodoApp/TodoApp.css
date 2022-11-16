@@ -52,7 +52,14 @@ ul li {
     padding: 15px;
     color: grey;
     box-shadow: 0 4px 6px #00000066;
+    display: flex;
 
+}
+
+ul li i {
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
 }
 input::placeholder{
     color: silver;
